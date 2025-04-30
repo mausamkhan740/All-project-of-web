@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Post Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>here is your post in details</h1>
+     <div>
+        <h1>Post by <%= post.username %></h1>
+        <p><strong>Content:</strong> <%= post.content %></p>
+     </div>
+     <p><strong>Post ID:</strong> <%= post.id %></p>
+    <a href="/posts">← Back to all posts</a>
+</body>
+</html>

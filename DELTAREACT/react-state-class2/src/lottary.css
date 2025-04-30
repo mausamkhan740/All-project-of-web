@@ -1,0 +1,14 @@
+.ticket {
+    font-size: 2rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 1rem 0;
+  }
+  
+  button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
